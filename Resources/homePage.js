@@ -57,6 +57,14 @@ var notiB = Ti.UI.createButton ({
 	height: 30
 });
 
+courseB.addEventListener('click', function(e) {
+	var newWin = Ti.UI.createWindow({
+		url: 'coursePage.js',
+		backgroundColor: '#FFF0AA'
+	});
+	newWin.open();
+});
+
 settingsB.addEventListener ('click', function(e){
 	var newWin = Ti.UI.createWindow({
 		url: 'settings.js',
