@@ -2,9 +2,19 @@ var homeWin = Titanium.UI.currentWindow;
 
 var headLabel = Ti.UI.createLabel ({
 	text: 'Home',
+	font: {fontSize: 50},
+	color: 'black',
 	textAlign: 'center',
 	width: 'Ti.UI.FILL',
 	top: 10
+});
+
+var logOut = Ti.UI.createLabel({
+	text: 'Log out',
+	font: {fontSize: 10, fontWeight: 'bold'},
+	color: 'blue',
+	top: 40,
+	right: 20
 });
 
 var courseB = Ti.UI.createButton ({
@@ -56,7 +66,20 @@ settingsB.addEventListener ('click', function(e){
 	newWin.open();
 });
 
+friendsB.addEventListener ('click', function(e){
+	var newWin = Ti.UI.createWindow({
+		url: 'friendPage.js',
+		backgroundColor: '#FFF0AA',
+		oldWin: Ti.UI.currentWindow
+	});
+	newWin.open();
+});
+logOut.addEventListener('click', function(e){
+	homeWin.close();
+});
+
 homeWin.add(headLabel);
+homeWin.add(logOut);
 homeWin.add(courseB);
 homeWin.add(myGroupB);
 homeWin.add(friendsB);
