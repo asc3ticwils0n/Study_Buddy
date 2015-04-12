@@ -55,6 +55,15 @@ settingsB.addEventListener ('click', function(e){
 	newWin.open();
 });
 
+myGroupB.addEventListener('click', function(e){
+	var newWin = Ti.UI.createWindow({
+		url: 'groupPage.js',
+		backgroundColor: '#A9A9A9',
+		title:'Groups'
+	});
+	newWin.open();
+});
+
 homeWin.add(headLabel);
 homeWin.add(courseB);
 homeWin.add(myGroupB);
