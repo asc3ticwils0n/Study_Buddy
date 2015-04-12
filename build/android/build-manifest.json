@@ -23,7 +23,11 @@
 	"mergeCustomAndroidManifest": false,
 	"encryptJS": false,
 	"minSDK": 10,
+<<<<<<< HEAD
+	"targetSDK": 16,
+=======
 	"targetSDK": 21,
+>>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 	"propertiesHash": "29f739a58f978a8021828a195a9e0576",
 	"activitiesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"servicesHash": "d41d8cd98f00b204e9800998ecf8427e",

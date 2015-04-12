@@ -2,13 +2,18 @@ var homeWin = Titanium.UI.currentWindow;
 
 var headLabel = Ti.UI.createLabel ({
 	text: 'Home',
+<<<<<<< HEAD
+=======
 	font: {fontSize: 50},
 	color: 'black',
+>>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 	textAlign: 'center',
 	width: 'Ti.UI.FILL',
 	top: 10
 });
 
+<<<<<<< HEAD
+=======
 var logOut = Ti.UI.createLabel({
 	text: 'Log out',
 	font: {fontSize: 10, fontWeight: 'bold'},
@@ -17,6 +22,7 @@ var logOut = Ti.UI.createLabel({
 	right: 20
 });
 
+>>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 var courseB = Ti.UI.createButton ({
 	title: 'Courses',
 	top: 130,
@@ -68,12 +74,28 @@ courseB.addEventListener('click', function(e) {
 settingsB.addEventListener ('click', function(e){
 	var newWin = Ti.UI.createWindow({
 		url: 'settings.js',
+<<<<<<< HEAD
+		backgroundColor: '#FFF0AA'
+=======
 		backgroundColor: '#FFF0AA',
 		oldWin: Ti.UI.currentWindow
+>>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 	});
 	newWin.open();
 });
 
+<<<<<<< HEAD
+myGroupB.addEventListener('click', function(e){
+	var newWin = Ti.UI.createWindow({
+		url: 'groupPage.js',
+		backgroundColor: '#A9A9A9',
+		title:'Groups'
+	});
+	newWin.open();
+});
+
+homeWin.add(headLabel);
+=======
 friendsB.addEventListener ('click', function(e){
 	var newWin = Ti.UI.createWindow({
 		url: 'friendPage.js',
@@ -88,6 +110,7 @@ logOut.addEventListener('click', function(e){
 
 homeWin.add(headLabel);
 homeWin.add(logOut);
+>>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 homeWin.add(courseB);
 homeWin.add(myGroupB);
 homeWin.add(friendsB);

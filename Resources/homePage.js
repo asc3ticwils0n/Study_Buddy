@@ -86,6 +86,15 @@ logOut.addEventListener('click', function(e){
 	homeWin.close();
 });
 
+myGroupB.addEventListener('click', function(e){
+	var newWin = Ti.UI.createWindow({
+		url: 'groupPage.js',
+		backgroundColor: '#A9A9A9',
+		title:'Groups'
+	});
+	newWin.open();
+});
+
 homeWin.add(headLabel);
 homeWin.add(logOut);
 homeWin.add(courseB);
