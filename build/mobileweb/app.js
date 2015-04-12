@@ -25,16 +25,18 @@ var login = Ti.UI.createButton ({
 	width: 75, height: 30
 });
 
-var forgetPass = Ti.UI.createButton({
-	title: 'Forget Password?',
-	top: '55%', left: 190,
+var forgetPass = Ti.UI.createLabel({
+	text: 'Forget Password?',
+	font: {fontSize: 10, fontWeight: 'bold'},
+	top: '55%', left: 200,
 	width: 125, height: 30
 });
 
 login.addEventListener ('click', function(e){
 	var homePage = Ti.UI.createWindow ({
 		url: 'homePage.js',
-		backgroundColor: '#554600'
+		backgroundColor: '#554600',
+		oldWin: Ti.UI.currentWindow
 	});
 	homePage.open();
 });
