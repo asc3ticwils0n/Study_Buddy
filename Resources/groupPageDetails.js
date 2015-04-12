@@ -1,12 +1,19 @@
 var DetailWin = Titanium.UI.currentWindow;
 
 var nameLabel = Titanium.UI.createLabel({
-	text:'Group Name				Group A',
+	text:'Group Name'
 	left: 0,
 	top:10,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
+var name = Ti.UI.createLabel({
+	text:'Group A',
+	color:'5e5e5e'
+	right: 0,
+	top:10,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}
+});
 
 var courseLabel = Titanium.UI.createLabel({
 	text:'Course		BUS353',
@@ -86,6 +93,7 @@ var member2Label = Titanium.UI.createLabel({
 });
 
 DetailWin.add(nameLabel);
+DetailWin.add(name);
 DetailWin.add(courseLabel);
 DetailWin.add(sectionLabel);
 DetailWin.add(dateLabel);
