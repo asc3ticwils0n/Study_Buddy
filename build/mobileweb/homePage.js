@@ -50,7 +50,8 @@ var notiB = Ti.UI.createButton ({
 settingsB.addEventListener ('click', function(e){
 	var newWin = Ti.UI.createWindow({
 		url: 'settings.js',
-		backgroundColor: '#FFF0AA'
+		backgroundColor: '#FFF0AA',
+		oldWin: Ti.UI.currentWindow
 	});
 	newWin.open();
 });

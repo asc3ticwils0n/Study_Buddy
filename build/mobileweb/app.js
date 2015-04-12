@@ -34,7 +34,8 @@ var forgetPass = Ti.UI.createButton({
 login.addEventListener ('click', function(e){
 	var homePage = Ti.UI.createWindow ({
 		url: 'homePage.js',
-		backgroundColor: '#554600'
+		backgroundColor: '#554600',
+		oldWin: Ti.UI.currentWindow
 	});
 	homePage.open();
 });
