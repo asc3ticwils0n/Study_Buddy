@@ -82,14 +82,28 @@ var member1Label = Titanium.UI.createLabel({
 	text:'Shing',
 	top:390,
 	left:100,
-	font:{fontSize:10,fontFamily:'Helvetica Neue'}	
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
 });
 
 var member2Label = Titanium.UI.createLabel({
 	text:'Peter',
 	top:400,
 	left:100,
-	font:{fontSize:10,fontFamily:'Helvetica Neue'}	
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
+});
+
+var member3Label = Titanium.UI.createLabel({
+	text:'Albert',
+	top:410,
+	left:100,
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
+});
+
+var member4Label = Titanium.UI.createLabel({
+	text:'Mason',
+	top:420,
+	left:100,
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
 });
 
 DetailWin.add(nameLabel);
