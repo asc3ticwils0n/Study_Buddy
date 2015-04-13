@@ -1,9 +1,9 @@
 //values for the position of the settings and their related switches
 var PS = 100;
-var SS = 200;
-var NF = 300;
-var PF = 400;
-var EF = 500;
+var SS = 150;
+var NF = 200;
+var PF = 300;
+var EF = 400;
 var Lvalue = 20;
 var Rvalue = 30;
 

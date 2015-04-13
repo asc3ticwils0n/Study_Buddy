@@ -2,7 +2,7 @@ var groupWin = Ti.UI.currentWindow;
 
 //The whole view for the group page.
 var groupView = Ti.UI.createView({
-	backgroundColor: '#A9A9A9'
+	backgroundColor: '#b18e5f'
 });
 
 //TitleView will contains title of the page, which is "Group".

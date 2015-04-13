@@ -1,31 +1,25 @@
-<<<<<<< HEAD
-ts	1428877226000
-=======
-ts	1428870553000
->>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
+ts	1428929744000
 Default-Landscape.png	446500
 Default-Portrait.png	56963
 Default.png	87123
 KS_nav_ui.png	748
 KS_nav_views.png	683
-app.js	1048
+UI.png	11675
+app.js	1263
 appicon.png	16659
 appicon144.png	23341
 apple-touch-icon-114x114-precomposed.png	15820
 apple-touch-icon-57x57-precomposed.png	6790
 apple-touch-icon-72x72-precomposed.png	8844
 apple-touch-icon-precomposed.png	6790
+coursePage.js	5542
+coursePageDetails.js	3270
 favicon.ico	1068
-<<<<<<< HEAD
-groupPage.js	5226
-groupPageDetails.js	2192
-homePage.js	1271
-settings.js	42
-=======
-friendPage.js	3005
-homePage.js	1597
+friendPage.js	3361
+groupPage.js	5927
+groupPageDetails.js	3824
+homePage.js	2349
 settings.js	2042
->>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 themes
 	common.css	7631
 	default
