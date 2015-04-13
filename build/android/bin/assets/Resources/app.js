@@ -15,31 +15,28 @@ var userPass = Ti.UI.createTextField ({
 
 var signUp = Ti.UI.createButton ({
 	title: 'Sign Up',
-	top: '55%', left: 40,
-	width: 75, height: 30
+	top: '60%', left: 40,
+	width: 75, height: 40
 });
 
 var login = Ti.UI.createButton ({
 	title: 'Login',
-	top: '55%', left: 115,
-	width: 75, height: 30
+	top: '60%', left: 115,
+	width: 75, height: 40
 });
 
-var forgetPass = Ti.UI.createButton({
-	title: 'Forget Password?',
-	top: '55%', left: 190,
-	width: 125, height: 30
+var forgetPass = Ti.UI.createLabel({
+	text: 'Forget Password?',
+	font: {fontSize: 10, fontWeight: 'bold'},
+	top: '60%', left: 200,
+	width: 130, height: 40
 });
 
 login.addEventListener ('click', function(e){
 	var homePage = Ti.UI.createWindow ({
 		url: 'homePage.js',
-<<<<<<< HEAD
-		backgroundColor: '#554600'
-=======
 		backgroundColor: '#554600',
 		oldWin: Ti.UI.currentWindow
->>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
 	});
 	homePage.open();
 });

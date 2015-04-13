@@ -1,61 +1,96 @@
 var DetailWin = Titanium.UI.currentWindow;
 
 var nameLabel = Titanium.UI.createLabel({
-	text:'Group Name'
+	text:'Group Name',
 	left: 0,
 	top:10,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
-var name = Ti.UI.createLabel({
+var name = Titanium.UI.createLabel({
 	text:'Group A',
-	color:'5e5e5e'
-	right: 0,
+	color:'#5e5e5e',
+	rigt:50,
 	top:10,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
 var courseLabel = Titanium.UI.createLabel({
-	text:'Course		BUS353',
+	text:'Course',
 	left: 0,
 	top:60,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
+var course = Titanium.UI.createLabel({
+	text:'BUS353',
+	color:'#5e5e5e',
+	rigt:50,
+	top:60,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}
+});
+
+
 var sectionLabel = Titanium.UI.createLabel({
-	text:'section	1',
-	left:'250',
+	text:'Section',
+	left: 250,
+	top:60,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}
+});
+
+var section = Titanium.UI.createLabel({
+	text:'1',
+	color:'#5e5e5e',
+	left: 340,
 	top:60,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
 var dateLabel = Titanium.UI.createLabel({
-	text:'Date/Time					4/13 5:30pm',
+	text:'Date/Time',
 	left: 0,
 	top:110,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
+var date = Titanium.UI.createLabel({
+	text:'4/13 5:30pm',
+	color:'#5e5e5e',
+	rigt:50,
+	top:110,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}
+});
+
 var placeLabel = Titanium.UI.createLabel({
-	text:'Place					Library 1st floor',
+	text:'Place',
 	left:0,
 	top:160,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
 });
 
-var placeLabel = Titanium.UI.createLabel({
-	text:'Place					Library 1st floor',
-	left:0,
+var place = Titanium.UI.createLabel({
+	text:'Library 1st floor',
+	color:'#5e5e5e',
+	rigt:50,
 	top:160,
-	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
 var enrollLabel = Titanium.UI.createLabel({
-	text:'Enrolled					10',
+	text:'Enrolled',
 	left:0,
 	top:210,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
 });
+
+var enroll = Titanium.UI.createLabel({
+	text:'10',
+	color:'#5e5e5e',
+	rigt:50,
+	top:210,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}
+});
+
 
 var DescriptionLabel = Titanium.UI.createLabel({
 	text:'Description',
@@ -65,21 +100,31 @@ var DescriptionLabel = Titanium.UI.createLabel({
 });
 
 var creatorLabel = Titanium.UI.createLabel({
-	text:'created by				Shing Ye',
+	text:'created by',
 	left:0,
 	top:340,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
 });
 
+var creator = Titanium.UI.createLabel({
+	text:'Shing Ye',
+	left:100,
+	color:'red',
+	top:350,
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
+});
+
+
 var memberLabel = Titanium.UI.createLabel({
 	text:'Member',
 	left:0,
 	top:390,
-	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
+	font:{fontSize:18,fontFamily:'Helvetica Neue'}	
 });
 
 var member1Label = Titanium.UI.createLabel({
 	text:'Shing',
+	color:'#5e5e5e',
 	top:390,
 	left:100,
 	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
@@ -87,35 +132,56 @@ var member1Label = Titanium.UI.createLabel({
 
 var member2Label = Titanium.UI.createLabel({
 	text:'Peter',
-	top:400,
+	color:'#5e5e5e',
+	top:405,
 	left:100,
 	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
 });
 
 var member3Label = Titanium.UI.createLabel({
 	text:'Albert',
-	top:410,
+	color:'#5e5e5e',
+	top:420,
 	left:100,
 	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
 });
 
 var member4Label = Titanium.UI.createLabel({
 	text:'Mason',
-	top:420,
+	color:'#5e5e5e',
+	top:435,
 	left:100,
 	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
 });
 
+var editLabel = Titanium.UI.createLabel({
+	text:'Edit',
+	color:'#0000FF',
+	textAlign:'center',
+	bottom:5,
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}			
+});
+
+
 DetailWin.add(nameLabel);
 DetailWin.add(name);
 DetailWin.add(courseLabel);
+DetailWin.add(course);
 DetailWin.add(sectionLabel);
+DetailWin.add(section);
 DetailWin.add(dateLabel);
+DetailWin.add(date);
 DetailWin.add(placeLabel);
+DetailWin.add(place);
 DetailWin.add(enrollLabel);
+DetailWin.add(enroll);
 DetailWin.add(DescriptionLabel);
 DetailWin.add(creatorLabel);
+DetailWin.add(creator);
 DetailWin.add(memberLabel);
 DetailWin.add(member1Label);
 DetailWin.add(member2Label);
+DetailWin.add(member3Label);
+DetailWin.add(member4Label);
+DetailWin.add(editLabel);
 DetailWin.open();

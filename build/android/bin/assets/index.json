@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"Resources/app.js":1,"Resources/groupPage.js":1,"Resources/groupPageDetails.js":1,"Resources/homePage.js":1,"Resources/settings.js":1}
-=======
-{"Resources/app.js":1,"Resources/friendPage.js":1,"Resources/homePage.js":1,"Resources/settings.js":1}
->>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
+{"Resources/app.js":1,"Resources/friendPage.js":1,"Resources/groupPage.js":1,"Resources/groupPageDetails.js":1,"Resources/homePage.js":1,"Resources/settings.js":1}

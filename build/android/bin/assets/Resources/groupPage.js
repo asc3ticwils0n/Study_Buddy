@@ -215,7 +215,7 @@ var firstSection2 = Ti.UI.createTableViewSection({});
 var firstRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'A',
-	hasDetail:true,
+	hasChild:true,
 	height:'60'
 });
 
@@ -229,42 +229,36 @@ var secondRow2 = Titanium.UI.createTableViewRow({
 var thirdRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'C',
-	hasChild:true,
 	height:'60'
 });
 
 var fourthRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'D',
-	hasChild:true,
 	height:'60'
 });
 
 var fifthRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'E',
-	hasChild:true,
 	height:'60'
 });
 
 var sixthRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'F',
-	hasChild:true,
 	height:'60'
 });
 
 var seventhRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'G',
-	hasChild:true,
 	height:'60'
 });
 
 var eigthRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'H',
-	hasChild:true,
 	height:'60'
 });
 

@@ -15,21 +15,21 @@ var userPass = Ti.UI.createTextField ({
 
 var signUp = Ti.UI.createButton ({
 	title: 'Sign Up',
-	top: '55%', left: 40,
-	width: 75, height: 30
+	top: '60%', left: 40,
+	width: 75, height: 40
 });
 
 var login = Ti.UI.createButton ({
 	title: 'Login',
-	top: '55%', left: 115,
-	width: 75, height: 30
+	top: '60%', left: 115,
+	width: 75, height: 40
 });
 
 var forgetPass = Ti.UI.createLabel({
 	text: 'Forget Password?',
 	font: {fontSize: 10, fontWeight: 'bold'},
-	top: '55%', left: 200,
-	width: 125, height: 30
+	top: '60%', left: 200,
+	width: 130, height: 40
 });
 
 login.addEventListener ('click', function(e){

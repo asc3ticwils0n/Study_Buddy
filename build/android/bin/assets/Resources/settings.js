@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-var settingsWin = Ti.UI.currentWindow;
-
-=======
 //values for the position of the settings and their related switches
 var PS = 100;
 var SS = 200;
@@ -118,4 +114,3 @@ settingsWin.add(backB);
 settingsWin.add(signOut);
 
 settingsWin.open();
->>>>>>> 7e2d3306b4811d72a9ef9c0ba2a7d8d76e8f75c3
