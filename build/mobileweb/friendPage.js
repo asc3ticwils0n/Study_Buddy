@@ -39,6 +39,7 @@ var cView = Ti.UI.createView({
 var back = Ti.UI.createButton({
 	title: 'Back',
 	//font: {fontSize: 10},
+	color: 'black',
 	top: '1%',
 	bottom: '93%',
 	left: '5%',
@@ -47,6 +48,7 @@ var back = Ti.UI.createButton({
 
 var addFriend = Ti.UI.createButton({
 	title: 'Add a Friend',
+	color: 'black',
 	top: '85%',
 	bottom: '3%',
 	left: '35%',
@@ -56,6 +58,7 @@ var addFriend = Ti.UI.createButton({
 
 var aHeading = Ti.UI.createLabel({
 	text: 'A',
+	color: 'black',
 	font: {fontSize: 20, fontWeight: 'bold'},
 	top: '1%',
 	left: headL
@@ -63,12 +66,14 @@ var aHeading = Ti.UI.createLabel({
 
 var aName1 = Ti.UI.createLabel({
 	text: 'Albertson, Johnathon',
+	color: 'black',
 	font: {fontSize: 20},
 	left: nameL
 });
 
 var aEmail = Ti.UI.createLabel({
 	text: 'domain@vandals',
+	color: 'black',
 	font: {fontSize: 10},
 	right: emailR
 });
@@ -76,6 +81,7 @@ var aEmail = Ti.UI.createLabel({
 var bHeading = Ti.UI.createLabel({
 	text: 'B',
 	font: {fontSize: 20, fontWeight: 'bold'},
+	color: 'black',
 	top: '1%',
 	left: headL
 });
@@ -83,6 +89,7 @@ var bHeading = Ti.UI.createLabel({
 var bName1 = Ti.UI.createLabel({
 	text: 'Bachinski, Michael',
 	font: {fontSize: 20},
+	color: 'black',
 	left: nameL,
 	top: '10%'
 });
@@ -90,6 +97,7 @@ var bName1 = Ti.UI.createLabel({
 var bEmail1 = Ti.UI.createLabel({
 	text: 'domain@vandals',
 	font: {fontSize: 10},
+	color: 'black',
 	right: emailR,
 	top: '10%'
 });
@@ -97,6 +105,7 @@ var bEmail1 = Ti.UI.createLabel({
 var bName2 = Ti.UI.createLabel({
 	text: 'Bosna, Becky',
 	font: {fontSize: 20},
+	color: 'black',
 	left: nameL,
 	top: '40%'
 });
@@ -104,6 +113,7 @@ var bName2 = Ti.UI.createLabel({
 var bEmail2 = Ti.UI.createLabel({
 	text: 'domain@vandals',
 	font: {fontSize: 10},
+	color: 'black',
 	right: emailR,
 	top: '40%'
 });
@@ -111,6 +121,7 @@ var bEmail2 = Ti.UI.createLabel({
 var bName3 = Ti.UI.createLabel({
 	text: 'Brakstad, Geoff',
 	font: {fontSize: 20},
+	color: 'black',
 	left: nameL,
 	top: '70%'
 });
@@ -118,6 +129,7 @@ var bName3 = Ti.UI.createLabel({
 var bEmail3 = Ti.UI.createLabel({
 	text: 'domain@vandals',
 	font: {fontSize: 10},
+	color: 'black',
 	right: emailR,
 	top: '70%'
 });
@@ -125,6 +137,7 @@ var bEmail3 = Ti.UI.createLabel({
 var cHeading = Ti.UI.createLabel({
 	text: 'C',
 	font: {fontSize: 20, fontWeight: 'bold'},
+	color: 'black',
 	top: '1%',
 	left: headL
 });
@@ -133,6 +146,7 @@ var cName1 = Ti.UI.createLabel({
 	text: 'Chamber, Monk',
 	font: {fontSize:20},
 	left: nameL,
+	color: 'black',
 	top: '10'
 });
 
@@ -140,6 +154,7 @@ var cEmail1 = Ti.UI.createLabel({
 	text: 'domain@vandals',
 	font: {fontSize: 10},
 	top: '10%',
+	color: 'black',
 	right: emailR
 });
 

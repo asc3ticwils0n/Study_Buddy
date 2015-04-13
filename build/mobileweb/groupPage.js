@@ -215,7 +215,7 @@ var firstSection2 = Ti.UI.createTableViewSection({});
 var firstRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'A',
-	hasDetail:true,
+	hasChild:true,
 	height:'60'
 });
 
@@ -229,14 +229,47 @@ var secondRow2 = Titanium.UI.createTableViewRow({
 var thirdRow2 = Titanium.UI.createTableViewRow({
 	backgroundColor: 'white',
 	title:'C',
-	hasChild:true,
 	height:'60'
 });
 
+var fourthRow2 = Titanium.UI.createTableViewRow({
+	backgroundColor: 'white',
+	title:'D',
+	height:'60'
+});
+
+var fifthRow2 = Titanium.UI.createTableViewRow({
+	backgroundColor: 'white',
+	title:'E',
+	height:'60'
+});
+
+var sixthRow2 = Titanium.UI.createTableViewRow({
+	backgroundColor: 'white',
+	title:'F',
+	height:'60'
+});
+
+var seventhRow2 = Titanium.UI.createTableViewRow({
+	backgroundColor: 'white',
+	title:'G',
+	height:'60'
+});
+
+var eigthRow2 = Titanium.UI.createTableViewRow({
+	backgroundColor: 'white',
+	title:'H',
+	height:'60'
+});
 
 firstSection2.add(firstRow2);
 firstSection2.add(secondRow2);
 firstSection2.add(thirdRow2);
+firstSection2.add(fourthRow2);
+firstSection2.add(fifthRow2);
+firstSection2.add(sixthRow2);
+firstSection2.add(seventhRow2);
+firstSection2.add(eigthRow2);
 tableView2.setData([firstSection2]);
 groupListView2.add(tableView2);
 tabGroupView.add(groupListView2);
