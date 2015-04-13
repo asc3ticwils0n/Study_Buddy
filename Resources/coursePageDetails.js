@@ -10,14 +10,14 @@ var nameLabel = Titanium.UI.createLabel({
 
 var name = Titanium.UI.createTextField({
 	hintText:'Group A',
-	rigt:50,
+	right:50,
 	top:10,
-	width:100, Height: 60
+	width:100, height: 60
 });
 
 var courseLabel = Titanium.UI.createLabel({
 	text:'Course',
-	olor:'#5e5e5e',
+	color:'#5e5e5e',
 	left: 0,
 	top:60,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
@@ -27,7 +27,7 @@ var course = Titanium.UI.createTextField({
 	hintText:'BUS353',
 	right:50,
 	top:60,
-	width:100,Height: 60
+	width:100,height: 60
 });
 
 var sectionLabel = Titanium.UI.createLabel({
@@ -57,7 +57,7 @@ var dateLabel = Titanium.UI.createLabel({
 var date = Titanium.UI.createLabel({
 	text:'4/13 5:30pm',
 	color:'#5e5e5e',
-	rigt:50,
+	right:50,
 	top:110,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
@@ -74,7 +74,7 @@ var placeLabel = Titanium.UI.createLabel({
 var place = Titanium.UI.createLabel({
 	text:'Library 1st floor',
 	color:'#5e5e5e',
-	rigt:50,
+	right:50,
 	top:160,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
@@ -89,7 +89,7 @@ var enrollLabel = Titanium.UI.createLabel({
 var enroll = Titanium.UI.createLabel({
 	text:'10',
 	color:'#5e5e5e',
-	rigt:50,
+	right:50,
 	top:210,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
