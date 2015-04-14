@@ -24,7 +24,8 @@ var back = Ti.UI.createButton({
 
 back.addEventListener('click',function(e){
 	var newWin = Ti.UI.createWindow({
-		url:'homePage.js'	
+		url:'homePage.js',
+		backgroundColor: '#b18e5f'	
 	});
 	newWin.open();
 });
@@ -127,8 +128,9 @@ var createGroup = Ti.UI.createButton({
 
 createGroup.addEventListener('click',function(e){
 	var newWin = Ti.UI.createWindow({
-		url:'CoursePageDetails.js',
-		backgroundColor:'white'
+		url:'coursePageDetails.js',
+		backgroundColor:'white',
+		title:'Create a Group'
 	});
 	newWin.open();
 });

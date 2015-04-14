@@ -101,6 +101,11 @@ friendsB.addEventListener ('click', function(e){
 	newWin.open();
 });
 logOut.addEventListener('click', function(e){
+	var newWin = Ti.UI.createWindow({
+		url: 'app.js'
+	});
+	newWin.open();
+
 	homeWin.close();
 });
 
