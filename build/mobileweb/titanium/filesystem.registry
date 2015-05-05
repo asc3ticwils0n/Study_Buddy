@@ -1,4 +1,4 @@
-ts	1430801763000
+ts	1430848444000
 Default-Landscape.png	446500
 Default-Portrait.png	56963
 Default.png	87123
@@ -12,14 +12,14 @@ apple-touch-icon-114x114-precomposed.png	15820
 apple-touch-icon-57x57-precomposed.png	6790
 apple-touch-icon-72x72-precomposed.png	8844
 apple-touch-icon-precomposed.png	6790
-coursePage.js	5732
+coursePage.js	5908
 coursePageDetails.js	5542
 favicon.ico	1068
 friendPage.js	3361
 groupPage.js	5927
 groupPageDetails.js	3824
 homePage.js	2422
-settings.js	2042
+settings.js	2017
 themes
 	common.css	7631
 	default
