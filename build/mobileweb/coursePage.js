@@ -68,6 +68,13 @@ var section2 = Ti.UI.createLabel({
 	font:{fontSize:11}
 });
 
+var tutor = Ti.UI.createLabel({
+	text:'Tutor',
+	color:'#585858',
+	top: 37,
+	font:{fontSize:11}
+});
+
 var courseView2 = Ti.UI.createView({
 	backgroundColor: 'white',
 	borderColor:'#585858',
@@ -271,6 +278,7 @@ courseView3.add(course3);
 courseView4.add(course4);
 sectionView.add(section1);
 sectionView.add(section2);
+sectionView.add(tutor);
 
 buttonView.add(createGroup);
 buttonView.add(post);

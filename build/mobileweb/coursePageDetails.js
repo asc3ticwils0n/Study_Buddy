@@ -123,6 +123,16 @@ var time = Titanium.UI.createLabel({
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}
 });
 
+time.addEventListener('click',function(e){
+	var tpicker = Ti.UI.createPicker({
+		type:Ti.UI.PICKER_TYPE_TIME,
+		selectionIndicator:true,
+		right:140,top:160,
+		useSpinner:true
+	});
+	Win1.add(tpicker);
+});
+
 
 var placeLabel = Titanium.UI.createLabel({
 	text:'Place',
@@ -150,7 +160,7 @@ var enrollLabel = Titanium.UI.createLabel({
 });
 
 var enroll = Titanium.UI.createLabel({
-	text:'  ',
+	text:'Size',
 	left:100,
 	top:260,
 	borderWidth:1,borderColor:'#5e5e5e',
@@ -171,22 +181,47 @@ var DescriptionLabel = Titanium.UI.createLabel({
 	text:'Description',
 	left:0,
 	top:310,
+	color:'#5e5e5e',
 	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
 });
 
 var description = Titanium.UI.createTextArea({
-	top:325,
-	left:0,
-	height:200,
-	width:300
+	top:335,
+	left:20,
+	height:100,
+	width:200,
 	borderWidth: 1,
   	borderColor: '#5e5e5e',
-  	borderRadius: 5,
-  	font: {fontSize:20, fontWeight:'bold'},
+  	font: {fontSize:20, fontWeight:'Helvetica Neue'},
   	keyboardType: Ti.UI.KEYBOARD_NUMBER_PAD,
-  	returnKeyType: Ti.UI.RETURNKEY_GO,
+  	returnKeyType: Ti.UI.RETURNKEY_GO, 
   	textAlign: 'left',
  	value: 'Type your description here',
+});
+
+var tutorCheck = Ti.UI.createLabel({
+	text:'Are you a tutor?',
+	left:230,
+	top:310,
+	color:'#5e5e5e',
+	font:{fontSize:20,fontFamily:'Helvetica Neue'}	
+});
+
+var checkTutor = Ti.UI.createSwitch({
+	title:'Tutor',
+	type:Ti.UI.Android.SWITCH_STYLE_TOGGLEBUTTON,
+	top:330,left:260
+	
+});
+
+var create = Ti.UI.createButton({
+	title:'create',
+	bottom:5,left:100
+});
+
+var cancel = Ti.UI.createButton({
+	title:'cancel',
+	bottom:5,right:100
 });
 
 Win1.add(nameLabel);
@@ -204,4 +239,8 @@ Win1.add(enrollLabel);
 Win1.add(enroll);
 Win1.add(DescriptionLabel);
 Win1.add(description);
+Win1.add(checkTutor);
+Win1.add(tutorCheck);
+Win1.add(create);
+Win1.add(cancel);
 Win1.open();
