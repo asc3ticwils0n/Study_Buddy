@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ts	1430781233000
+=======
+ts	1430848444000
+>>>>>>> 25623489006a2a9c2ec55083bb432024364f8d88
 Default-Landscape.png	446500
 Default-Portrait.png	56963
 Default.png	87123
@@ -12,14 +16,23 @@ apple-touch-icon-114x114-precomposed.png	15820
 apple-touch-icon-57x57-precomposed.png	6790
 apple-touch-icon-72x72-precomposed.png	8844
 apple-touch-icon-precomposed.png	6790
+<<<<<<< HEAD
 coursePage.js	5732
+=======
+coursePage.js	5908
+>>>>>>> 25623489006a2a9c2ec55083bb432024364f8d88
 coursePageDetails.js	5542
 favicon.ico	1068
 friendPage.js	3361
 groupPage.js	5927
 groupPageDetails.js	3824
+<<<<<<< HEAD
 homePage.js	2427
 settings.js	2042
+=======
+homePage.js	2422
+settings.js	2017
+>>>>>>> 25623489006a2a9c2ec55083bb432024364f8d88
 themes
 	common.css	7631
 	default
@@ -174,5 +187,9 @@ titanium
 	Ti.js	6758
 	dependencies.json	10476
 	package.json	660
+<<<<<<< HEAD
 titanium.css	37450
+=======
+titanium.css	37391
+>>>>>>> 25623489006a2a9c2ec55083bb432024364f8d88
 titanium.js	481210

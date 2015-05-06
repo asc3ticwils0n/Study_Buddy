@@ -210,7 +210,11 @@ var joinButton = Ti.UI.createButton({
 });
 
 joinButton.addEventListener('click',function(e){
-	joinButton.title = 'Cancel';
+	if (joinButton.getTitle() === 'Join'){
+		joinButton.title = 'Cancel';
+	} else {
+		joinButton.title = 'Join';
+	}
 });
 
 var groupView2 = Ti.UI.createView ({
@@ -266,7 +270,11 @@ var joinButton2 = Ti.UI.createButton({
 });
 
 joinButton2.addEventListener('click',function(e){
-	joinButton2.title = 'Cancel';
+	if (joinButton2.getTitle() === 'Join'){
+		joinButton2.title = 'Cancel';
+	} else {
+		joinButton2.title = 'Join';
+	}
 });
 
 headView.add(addCourse);

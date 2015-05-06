@@ -85,9 +85,10 @@ var backB = Ti.UI.createButton({
 	right: Rvalue
 });
 
+
 var save = Ti.UI.createButton({
 	title: 'Save',
-	bottom: 10
+	bottom:5
 });
 
 backB.addEventListener('click', function(e){

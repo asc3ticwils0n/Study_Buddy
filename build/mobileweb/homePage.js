@@ -68,7 +68,7 @@ var settingsB = Ti.UI.createButton ({
 });
 
 var notiB = Ti.UI.createButton ({
-	title: 'Notifications',
+	title: 'Messages',
 	top: 400,
 	left: 145,
 	width: 125,
