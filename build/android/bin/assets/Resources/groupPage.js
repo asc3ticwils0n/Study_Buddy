@@ -99,6 +99,30 @@ var firstDate1 = Titanium.UI.createLabel({
 	bottom:'5'
 });
 
+var firstCross = Titanium.UI.createLabel({
+	text:'X',
+	top:5,right:5,
+	color:'#9A1414'
+});
+
+firstCross.addEventListener('click',function(e){
+	var dialog = Ti.UI.createAlertDialog({
+    cancel: 1,
+    buttonNames: ['Yes', 'No'],
+    message: 'Are you sure to hide the group?',
+    title: 'Hide'
+  });
+  dialog.addEventListener('click', function(e){
+    if (e.index === e.source.cancel){
+      Ti.API.info('The cancel button was clicked');
+    }
+    Ti.API.info('e.cancel: ' + e.cancel);
+    Ti.API.info('e.source.cancel: ' + e.source.cancel);
+    Ti.API.info('e.index: ' + e.index);
+  });
+  dialog.show();
+});
+
 firstRow1.addEventListener('click', function(e){
 	var newWin = Ti.UI.createWindow({
 		url: 'groupPageDetails.js',
@@ -174,6 +198,7 @@ var eighthRow1 = Titanium.UI.createTableViewRow({
 firstRow1.add(firstTitle1);
 firstRow1.add(firstCourse1);
 firstRow1.add(firstDate1);
+firstRow1.add(firstCross);
 secondRow1.add(secondTitle1);
 secondRow1.add(secondCourse1);
 secondRow1.add(secondDate1);

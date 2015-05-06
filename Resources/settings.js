@@ -85,17 +85,12 @@ var backB = Ti.UI.createButton({
 	right: Rvalue
 });
 
-var signOut = Ti.UI.createButton({
-	title: 'Sign Out',
+var save = Ti.UI.createButton({
+	title: 'Save',
 	bottom: 10
 });
 
 backB.addEventListener('click', function(e){
-	settingsWin.close();
-});
-
-signOut.addEventListener('click', function(e){
-	settingsWin.oldWin.close();
 	settingsWin.close();
 });
 
@@ -111,6 +106,6 @@ settingsWin.add(nameF);
 settingsWin.add(phoneF);
 settingsWin.add(emailF);
 settingsWin.add(backB);
-settingsWin.add(signOut);
+settingsWin.add(save);
 
 settingsWin.open();

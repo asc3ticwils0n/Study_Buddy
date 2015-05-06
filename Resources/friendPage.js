@@ -45,10 +45,11 @@ var back = Ti.UI.createButton({
 });
 
 back.addEventListener('click',function(e){
-	var newWin = Ti.UI.createWindow({
-		url:'homePage.js'
-	});
-	newWin.open();
+	// var newWin = Ti.UI.createWindow({
+		// url:'homePage.js'
+	// });
+	// newWin.open();
+	friendWin.close();
 });
 
 var addFriend = Ti.UI.createButton({

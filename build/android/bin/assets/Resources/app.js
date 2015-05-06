@@ -54,6 +54,21 @@ login.addEventListener ('click', function(e){
 	homePage.open();
 });
 
+var Remember = Ti.UI.createLabel({
+	text:'Remember Me',
+	left:100,
+	top:'70%',
+	color:'#585858',
+	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
+});
+
+var checkRemember = Ti.UI.createSwitch({
+	title:'On',
+	type:Ti.UI.Android.SWITCH_STYLE_TOGGLEBUTTON,
+	top:'68%',left:210
+	
+});
+
 loginWin.add(topView);
 loginWin.add(logoImage);
 loginWin.add(userPass);
@@ -61,4 +76,6 @@ loginWin.add(userName);
 loginWin.add(signUp);
 loginWin.add(login);
 loginWin.add(forgetPass);
+loginWin.add(Remember);
+loginWin.add(checkRemember);
 loginWin.open();

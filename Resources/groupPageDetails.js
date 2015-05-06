@@ -154,14 +154,36 @@ var member4Label = Titanium.UI.createLabel({
 	font:{fontSize:15,fontFamily:'Helvetica Neue'}	
 });
 
-var editLabel = Titanium.UI.createLabel({
-	text:'Edit',
-	color:'#0000FF',
-	textAlign:'center',
+var editLabel = Titanium.UI.createButton({
+	title:'Edit',
 	bottom:5,
-	font:{fontSize:15,fontFamily:'Helvetica Neue'}			
+	left:190
+	//font:{fontSize:15,fontFamily:'Helvetica Neue'}			
 });
 
+var leaveGroup = Titanium.UI.createButton({
+	title:"Leave",
+	bottom:5,
+	right:190
+});
+
+leaveGroup.addEventListener('click',function(e){
+	var dialog = Ti.UI.createAlertDialog({
+    cancel: 1,
+    buttonNames: ['Yes', 'No'],
+    message: 'Are you sure to leave the group?',
+    title: 'Leave'
+  });
+  dialog.addEventListener('click', function(e){
+    if (e.index === e.source.cancel){
+      Ti.API.info('The cancel button was clicked');
+    }
+    Ti.API.info('e.cancel: ' + e.cancel);
+    Ti.API.info('e.source.cancel: ' + e.source.cancel);
+    Ti.API.info('e.index: ' + e.index);
+  });
+  dialog.show();
+});
 
 DetailWin.add(nameLabel);
 DetailWin.add(name);
@@ -184,4 +206,5 @@ DetailWin.add(member2Label);
 DetailWin.add(member3Label);
 DetailWin.add(member4Label);
 DetailWin.add(editLabel);
+DetailWin.add(leaveGroup);
 DetailWin.open();

@@ -69,7 +69,7 @@ var section2 = Ti.UI.createLabel({
 });
 
 var tutor = Ti.UI.createLabel({
-	text:'tutor',
+	text:'Tutor',
 	color:'#585858',
 	top: 37,
 	font:{fontSize:11}
@@ -170,6 +170,7 @@ var groupView1 = Ti.UI.createView ({
 
 var name = Ti.UI.createLabel({
 	text:'Group A',
+	color:'#585858',
 	top:'5%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -177,6 +178,7 @@ var name = Ti.UI.createLabel({
 
 var date = Ti.UI.createLabel({
 	text:'4/13 5:30pm',
+	color:'#585858',
 	top:'5%',
 	right:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -184,6 +186,7 @@ var date = Ti.UI.createLabel({
 
 var place = Ti.UI.createLabel({
 	text:'Place: Library 1st Floor',
+	color:'#585858',
 	top:'15%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -191,6 +194,7 @@ var place = Ti.UI.createLabel({
 
 var enroll = Ti.UI.createLabel({
 	text:'Enroll: 4/10',
+	color:'#585858',
 	top:'25%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -198,6 +202,7 @@ var enroll = Ti.UI.createLabel({
 
 var detail = Ti.UI.createLabel({
 	text:'Bus353, study for final exam!',
+	color:'#585858',
 	top:'35%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -226,6 +231,7 @@ var groupView2 = Ti.UI.createView ({
 
 var name2 = Ti.UI.createLabel({
 	text:'Group B',
+	color:'#585858',
 	top:'5%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -233,6 +239,7 @@ var name2 = Ti.UI.createLabel({
 
 var date2 = Ti.UI.createLabel({
 	text:'4/13 5:30pm',
+	color:'#585858',
 	top:'5%',
 	right:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -240,6 +247,7 @@ var date2 = Ti.UI.createLabel({
 
 var place2 = Ti.UI.createLabel({
 	text:'Place: ALB 1st Floor',
+	color:'#585858',
 	top:'15%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -247,6 +255,7 @@ var place2 = Ti.UI.createLabel({
 
 var enroll2 = Ti.UI.createLabel({
 	text:'Enroll: 6/10',
+	color:'#585858',
 	top:'25%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
@@ -254,6 +263,7 @@ var enroll2 = Ti.UI.createLabel({
 
 var detail2 = Ti.UI.createLabel({
 	text:'Bus390,Project study!',
+	color:'#585858',
 	top:'35%',
 	left:'5%',
 	font:{fontSize:12,fontFamily:'Helvetica Neue'}
